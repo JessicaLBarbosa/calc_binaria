@@ -1,11 +1,27 @@
-# Calculadora Binária
-Calculadora Binária em Angular
+# CalculadoraBinaria
 
-Atividade Prática Supervisionada feita para a matéria de Desenvolvimento Móvel.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
 
-## PROJETO ANGULAR DE CALCULADORA BINÁRIA E QUADRO DE HISTÓRICO DE OPERAÇÕES
+## Development server
 
-O grupo formado por 2 alunos deverá desenvolver um sistema usando ANGULAR. Esse sistema deve ser desenvolvido na arquitetura SPA (single page application) e deverá ter ao menos 3 componentes descritos abaixo. 
-* O Primeiro componente deverá ter um template com apresentação dos integrantes do grupo (matrícula, nome e foto); 
-* O componente da calculadora de números binários deverá ter somente a funcionalidade de soma. No template deste componente deverá ter somente os botões dos dígitos 0 e 1, um botão de somar e outro botão de limpar resultado; 
-* Um componente que apresenta o histórico das operações realizadas deve também ter uma opção pra poder limpar este histórico
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
