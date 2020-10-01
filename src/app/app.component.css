@@ -2,6 +2,15 @@
   font-family: "Baloo Tammudu 2", cursive;
 }
 
-h1 {
-  font-size: 60px;
+nav {
+  padding: 10px;
+  font-size: xx-large;
+}
+
+li {
+  padding: 0 20px;
+}
+
+.container {
+  margin-top: 50px;
 }

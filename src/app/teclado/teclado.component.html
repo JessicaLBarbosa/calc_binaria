@@ -1,1 +1,38 @@
-<p>teclado binario</p>
+<h2>Calculadora Binária</h2>
+
+<div class="col-md-12">
+  <div class="row">
+    <input type="text" name="resultado" value="{{ resultado }}" disabled />
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="col-md-6">
+        <button class="btn btn-outline-dark" (click)="montarResultado('0')">
+          0
+        </button>
+      </div>
+      <div class="col-md-6">
+        <button class="btn btn-outline-dark" (click)="montarResultado('1')">
+          1
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="col-md-6">
+        <button class="btn btn-outline-primary" (click)="montarResultado('+')">
+          +
+        </button>
+      </div>
+      <div class="col-md-6">
+        <button class="btn btn-outline-success" (click)="finalizar()">=</button>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <button class="btn btn-outline-danger" (click)="limpa()">CE</button>
+    </div>
+  </div>
+</div>
