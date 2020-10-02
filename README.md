@@ -2,6 +2,20 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
 
+## Objetivo
+Este projeto foi desenvolvido como avaliação da matéria de Desenvolvimento Móvel, no semestre de 2020.2.
+
+### Informações:
+Equipe de Desenvolvimento: 
+* Jessica Lessa Barbosa
+* João Carlos Marcelino Lima
+                           
+Professor: Marcelo Loutfi
+
+Matéria: Desenvolvimento Móvel
+
+Semestre: 2020.2
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
