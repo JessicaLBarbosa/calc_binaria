@@ -3,6 +3,7 @@
   color: white;
   margin: 0;
   padding: 0;
+  align-items: center;
 }
 
 nav {
@@ -22,4 +23,6 @@ li {
 
 .container {
   margin-top: 50px;
+  justify-content: center;
+  align-content: center;
 }

@@ -24,7 +24,7 @@ export class TecladoComponent implements OnInit {
   }
 
   //limpa o resultado
-  limpa() {
+  limpar() {
     this.resultado = "";
   }
   //Verifica se o caractere passado é um operador
